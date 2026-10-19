@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Approved PR metadata v1.0.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["title", "description"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 72,
+      "pattern": "^[^\\r\\n]+$"
+    },
+    "description": { "type": "string", "minLength": 1 }
+  }
+}

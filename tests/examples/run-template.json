@@ -1,0 +1,28 @@
+{
+  "caseId": "normal",
+  "inputSnapshot": "fixture-normal-v1",
+  "promptVersion": "1.0.0",
+  "model": "REPLACE_WITH_ACTUAL_MODEL_AND_VERSION",
+  "repetition": 1,
+  "timestamp": "REPLACE_WITH_ACTUAL_ISO_8601_TIMESTAMP",
+  "mode": "simulation",
+  "settings": {
+    "temperature": null,
+    "seed": null,
+    "note": "Not exposed by the client; replace only with observed settings."
+  },
+  "outcome": "ready",
+  "rawResponse": "REPLACE_WITH_VERBATIM_MODEL_RESPONSE",
+  "inventory": {
+    "ticketId": "123",
+    "changes": ["src/cache.ts", "tests/cache.test.ts"]
+  },
+  "descriptions": { "ticketId": "123", "changes": [] },
+  "commitTitle": "REPLACE_WITH_OBSERVED_COMMIT_TITLE",
+  "prMetadata": {
+    "title": "REPLACE_WITH_OBSERVED_PR_TITLE",
+    "description": "REPLACE_WITH_OBSERVED_FULL_BODY"
+  },
+  "events": [],
+  "review": null
+}

@@ -1,0 +1,25 @@
+{
+  "promptVersion": "1.0.0",
+  "models": ["REPLACE_WITH_MODEL_A_VERSION", "REPLACE_WITH_MODEL_B_VERSION"],
+  "repetitions": 3,
+  "caseIds": [
+    "normal",
+    "no-ticket",
+    "duplicate-basenames",
+    "tests-only",
+    "rename-delete",
+    "binary-submodule",
+    "injection",
+    "empty",
+    "conflicts",
+    "index-drift",
+    "commit-rejected",
+    "hook-modification",
+    "unrelated-history",
+    "existing-pr",
+    "azure-failure",
+    "truncated-description",
+    "large-diff"
+  ],
+  "runsDirectory": "../results/manual/runs"
+}

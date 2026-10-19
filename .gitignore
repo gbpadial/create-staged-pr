@@ -1,0 +1,4 @@
+tests/results/
+tests/sandbox/
+*.local.json
+.env

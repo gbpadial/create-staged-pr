@@ -1,0 +1,22 @@
+{
+  "name": "create-staged-pr",
+  "activeVersion": "1.0.0",
+  "policy": "prompts/v1.0.0/policy.md",
+  "prompts": {
+    "inventory": "prompts/v1.0.0/01-inventory.prompt.md",
+    "describe": "prompts/v1.0.0/02-describe.prompt.md",
+    "commit": "prompts/v1.0.0/03-commit.prompt.md",
+    "metadata": "prompts/v1.0.0/04-pr-metadata.prompt.md",
+    "publish": "prompts/v1.0.0/05-publish.prompt.md"
+  },
+  "contracts": {
+    "inventory": "prompts/v1.0.0/contracts/inventory.schema.json",
+    "descriptions": "prompts/v1.0.0/contracts/descriptions.schema.json",
+    "metadata": "prompts/v1.0.0/contracts/metadata.schema.json"
+  },
+  "evaluation": {
+    "run": "tests/prompts/v1.0.0/run-case.prompt.md",
+    "evaluate": "tests/prompts/v1.0.0/evaluate-output.prompt.md",
+    "compare": "tests/prompts/v1.0.0/compare-runs.prompt.md"
+  }
+}
